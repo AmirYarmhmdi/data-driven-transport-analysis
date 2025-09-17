@@ -1,35 +1,31 @@
-# Urban Micro-Mobility Data Analysis – Chicago & Austin
+# Urban Micro-Mobility Analysis – Chicago & Austin
 
-This repository contains Jupyter Notebooks and project materials for analyzing micro-mobility (bike-sharing) data in Chicago and Austin, as part of the "Transport Innovation for a Sustainable, Inclusive and Smart Mobility" project at Politecnico di Torino.
+Explore micro-mobility patterns through Divvy (Chicago) and Austin bike-sharing datasets. This project is part of the **Transport Innovation for a Sustainable, Inclusive and Smart Mobility** program at Politecnico di Torino.
 
-## Project Structure
+## Project Highlights
 
+- **Data Cleaning & Preparation** – Handle large datasets efficiently.
+- **Exploratory Analysis** – Visualize trip patterns and usage trends.
+- **Insights on Urban Mobility** – Compare Chicago and Austin micro-mobility behavior.
+
+## Structure
+
+```
 Project/
 │
-├─ data/
-│ └─ Divvy_Trips_sample.csv # Sample CSV file for quick analysis
-├─ notebooks/
-│ ├─ 01_data_loading.ipynb # Loading and cleaning data
-│ └─ 02_exploratory_analysis.ipynb # Exploratory data analysis and visualization
-├─ instructions/
-│ └─ Instructions.pdf # Project instructions / problem statement
-├─ report/
-│ └─ Project_Report.pdf # Project report
-└─ README.md # This file
+├─ Ex1_2.ipynb         # Jupyter Notebook, Austin
+├─ Ex3_4.ipynb.zip*     # Jupyter Notebooks, Chicago
+├─ instructions.pdf    # Project problem statement
+├─ report.pdf          # Final project report
+└─ README.md           # This file
+```
 
-markdown
-Copy code
-
-## Notes
-
-- The full dataset (~65MB) is hosted externally due to GitHub size limitations.
-- Notebooks use a sample dataset (`Divvy_Trips_sample.csv`) for demonstration purposes.
-- For full analysis, you can replace the sample CSV with the full dataset from the server or external link.
+> *Note: Full datasets (~65MB) are hosted externally due to GitHub size limits. 
 
 ## How to Run
 
 1. Clone the repository.
-2. Ensure `pandas` and other dependencies are installed.
-3. Open notebooks in the `notebooks/` folder.
-4. Run `01_data_loading.ipynb` first to prepare the dataset.
-5. Continue with `02_exploratory_analysis.ipynb` for analysis and visualization.
+2. Install dependencies (`pandas`, `matplotlib`, etc.).
+3. Download the database based on the instructions.
+4. Change file addresses.
+5. Run Jupyter Notebooks.
